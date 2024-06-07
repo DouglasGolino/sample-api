@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\domain\Domain\Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\HttpClients\" />
+    <Folder Include="Interfaces\Services\" />
+    <Folder Include="Interfaces\Settings\" />
+    <Folder Include="Interfaces\UseCases\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Interfaces\Repositories\" />
+    <Folder Include="Models\Base\Pagination\" />
+    <Folder Include="Services\" />
+    <Folder Include="Notifications\" />
+    <Folder Include="Validators\" />
+    <Folder Include="UseCases\" />
+    <Folder Include="Profiles\" />
+  </ItemGroup>
+
+</Project>
