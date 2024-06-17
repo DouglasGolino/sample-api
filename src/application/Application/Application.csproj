@@ -20,9 +20,13 @@
     <Folder Include="Models\Base\Pagination\" />
     <Folder Include="Services\" />
     <Folder Include="Notifications\" />
-    <Folder Include="Validators\" />
     <Folder Include="UseCases\" />
     <Folder Include="Profiles\" />
+    <Folder Include="Validators\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.2" />
   </ItemGroup>
 
 </Project>
