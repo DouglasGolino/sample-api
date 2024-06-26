@@ -11,20 +11,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Configurations\" />
-    <Folder Include="Factories\" />
-    <Folder Include="HttpClients\" />
-    <Folder Include="Cache\" />
-    <Folder Include="IoC\" />
-    <Folder Include="AwsSecrets\" />
-    <Folder Include="Diagnostics\" />
-    <Folder Include="Mappers\" />
-    <Folder Include="Swagger\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
   </ItemGroup>
 
 </Project>

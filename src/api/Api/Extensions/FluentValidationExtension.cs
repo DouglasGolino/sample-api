@@ -9,7 +9,6 @@ namespace Api.Extensions
         {
             //services.AddFluentValidation(fv =>
             //{
-
             //});
 
             return services;
