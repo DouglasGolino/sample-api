@@ -13,6 +13,17 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 
+app.UseRouting();
+
+app.UseHttpsRedirection();
+
+app.UseEndpoints(endpoints =>
+{
+    _ = endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+});
+
 app.UseHttpsRedirection();
 
 app.Run();
